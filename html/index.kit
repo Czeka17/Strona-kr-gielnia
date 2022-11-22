@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <title>Bowling club</title>
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <link href="./dist/css/hamburger.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0a566236a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- @include 'nav.kit' -->
+    <header>
+        <div class="header__img">
+            <div class="header__shadow"></div>
+            <div class="wrapper">
+            <div class="header__text">
+                <h1>Witaj w bowling club</h1>
+                <p>Najlepszej kręgielni w okolicy!</p>
+                </div>
+            </div>
+            <a href="#cards">
+                <div class="header__arrow">
+                    <img src="../dist/img/arrow-down.svg" alt>
+                </div>
+            </a>
+        </div>
+    </header>
+<main>
+<section class="cards" id="cards">
+    <div class="wrapper">
+        <h2>O nas</h2>
+        <div class="cards__box">
+            <div class="cards__card cards__card--one">
+                <img src="../dist/img/wifi.svg" alt="">
+            <h3>Wifi</h3>
+            <p>Darmowe wifi dla klientów!</p>
+            </div>
+            <div class="cards__card cards__card--two">
+                <img src="../dist/img/award.svg" alt="">
+            <h3>Nagrodzeni</h3>
+            <p>Najlepsza kręgielnia w okolicy!</p>
+            </div>
+            <div class="cards__card cards__card--three">
+                <img src="../dist/img/smile.svg" alt="">
+            <h3>Satysfakcja</h3>
+            <p>Klienci chętnie korzystają z naszych usług!</p>
+            </div>
+        </div>
+    </div>
+    <div class="cards__images">
+        <img src="../dist/img/award2.svg" alt="" class="cards__images-icon cards__images-icon--one">
+        <img src="../dist/img/smile2.svg" alt="" class="cards__images-icon cards__images-icon--two">
+        <img src="../dist/img/wifi2.svg" alt="" class="cards__images-icon cards__images-icon--three">
+    </div>
+</section>
+<section class="about-us">
+    <div class="wrapper">
+        <h2>Nasza kręgielnia</h2>
+        <div class="about-us__box">
+            <div class="about-us__box-image"><img src="../dist/img/about-us-small.jpg" alt="Tor w kręgielni"></div>
+            <div class="about-us__box-text"><h3>Posiadamy 8 torów</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dicta dignissimos consequuntur obcaecati minus labore ipsam deserunt voluptatibus veritatis inventore.</p></div>
+        </div>
+        <div class="about-us__box about-us__box--right">
+            <div class="about-us__box-image about-us__box-image--right"><img src="../dist/img/about-us2.jpg" alt="Tor w kręgielni"></div>
+            <div class="about-us__box-text about-us__box-text--right"><h3>Posiadamy 8 torów</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dicta dignissimos consequuntur obcaecati minus labore ipsam deserunt voluptatibus veritatis inventore.</p></div>
+        </div>
+    </div>
+</section>
+<section class="offert" id="offert">
+    <div class="wrapper">
+    <h2>Godziny otwarcia oraz cennik</h2>
+    <table>
+        <tbody>
+        <tr>
+            <th>Dzień tygodnia</th>
+            <th>Godzina</th>
+            <th>Cena za 1 godzinę</th>
+        </tr>
+        <tr>
+            <td>Poniedziałek - Czwartek</td>
+            <td>14:00 - 17:00 </br> 17:00 - 22:00</td>
+            <td>50zł </br> 60zł</td>
+        </tr>
+        <tr>
+            <td>Piątek</td>
+            <td>14:00 - 17:00 </br> 17:00 - 00:00</td>
+            <td>60zł </br> 70zł</td>
+        </tr>
+        <tr>
+            <td>Sobota</td>
+            <td>12:00 - 17:00 </br> 17:00 - 00:00</td>
+            <td>70zł </br> 80zł</td>
+        </tr>
+        <tr>
+            <td>Niedziela</td>
+            <td>13:00 - 21:00</td>
+            <td>70zł</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+</section>
+<div class="contact" id="contact">
+    <div class="wrapper">
+    <h2>Kontakt</h2>
+    <div class="contact__box">
+        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=bowling club lubin&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://piratebay-proxys.com/">Piratebay</a></div><style>.mapouter{position:relative;text-align:left;width:100%;height:400px;padding: 1em;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+        <div class="contact__box--text">
+            <h3>Znajdujemy się tutaj</h3>
+            <p>Lubin</p>
+            <p>ul.1 Maja 13c</p>
+        </div>
+        <div class="contact__box--socials">
+            <p><i class="fa-solid fa-phone"></i> 111 222 333</p>
+            <p><i class="fa-brands fa-instagram"></i> Bowling__club</p>
+            <p><i class="fa-brands fa-square-facebook"></i> Bowling club</p>
+        </div>
+    </div>
+    </div>
+</div>
+</main>
+<footer class="footer">
+    <p class="footer__text">&copy; <span class="footer__year"></span> | Bowling club</p>
+</footer>
+
+
+    <script src="./dist/js/main.min.js"></script>
+</body>
+</html>

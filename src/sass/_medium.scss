@@ -1,0 +1,84 @@
+@media(min-width:992px){
+    nav{
+        .nav-btn{
+            display: none;
+        }
+        .nav{
+            display: none;
+        }
+        .nav__desktop{
+            display: flex;
+        }
+    }
+    header{
+        .header{
+        &__img{
+            background-image: url('../img/bowling.jpg');
+        }
+    }
+    }
+    main{
+    .cards{
+        &__box{
+            grid-template-columns: repeat(9, 1fr);
+        }
+        &__card{
+            &--one{
+                grid-row: 1/2;
+                grid-column: 1/4;
+                            
+                }
+            &--two{
+                grid-row: 1/2;
+                grid-column: 4/7;
+                }
+            &--three{                                   
+                grid-row: 1/2;
+                grid-column: 7/10;
+             }
+        }
+    &__images{
+        &-icon{
+        display: block;
+        }
+    }
+}
+    .about-us{
+        &__box{
+            flex-direction: row;
+            &-image{
+                width: 50%;
+                &--right{
+                    order: 1;
+                }
+            }
+            &-text{
+                padding: 0 3em;
+                &--right{
+                    text-align: right;
+                }
+            }
+        }
+    }
+    .offert{
+        table{
+            font-size: 1.6rem;
+            tr>td {
+                padding: 1em 2em;
+              }
+              tr>th{
+                padding: 2em 0;
+            }
+        }
+    }
+    .contact{
+        .mapouter{
+            width: 50%;
+        }
+        &__box{
+            flex-direction: row;
+        }
+
+    }
+    }
+}
