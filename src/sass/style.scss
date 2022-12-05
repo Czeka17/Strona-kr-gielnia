@@ -272,14 +272,14 @@ main{
 }
 .about-us{
     position: relative;
-    padding: 1em 0 2em;
+    padding: 3em 0 2em;
     background-color: $third-color;
     &__box{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 2em 0;
+        padding: 3em 0;
         &-image{
             width: 80%;
             img{
@@ -301,7 +301,7 @@ main{
     }
 }
 .offert{
-    padding: 2em 0;
+    padding: 3em 0;
     table{
         display: flex;
         justify-content: center;
@@ -335,6 +335,7 @@ main{
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        padding: 2em 0;
         .mapouter{
             margin-bottom: 2em;
         }
